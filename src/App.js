@@ -1,10 +1,15 @@
 import React from 'react';
-import logo from '../public/assets/images/CS_logo_blue.png';
-import './App.css';
+import Nav from './components/Nav';
+import About from './components/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div>
+      <Nav></Nav>
+      <main>
+        <About></About>
+      </main>
     </div>
   );
 }

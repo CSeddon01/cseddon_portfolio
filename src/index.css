@@ -89,12 +89,9 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  padding: 0 20px;
 }
 
-header a {
-  color: var(--light);
-}
 
 button {
   font-size: 1rem;
