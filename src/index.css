@@ -28,7 +28,7 @@ html
 }
 
 body {
-  background-image: url("https://github.com/CSeddon01/cseddon_portfolio/blob/main/src/assets/images/bluebg.jpg?raw=true");
+  background-image: url(./assets/images/bluebg.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
