@@ -1,17 +1,30 @@
 import React from 'react';
+// import ReactDOM from 'react-dom';
 import Nav from './components/Nav';
 import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./index.css";
 
-function App() {
+
+export default class App extends React.Component {
+  
+
+render() {
+ 
   return (
+    <body>
     <div>
-      <Nav></Nav>
-      <main>
-        <About></About>
-      </main>
+      {/* <Router> */}
+        <div>
+          <Nav></Nav>
+          <About></About>
+        </div>
+      {/* </Router> */}
+
+      
     </div>
+    </body>
   );
 }
+}
 
-export default App;
