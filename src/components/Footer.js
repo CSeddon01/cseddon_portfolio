@@ -1,31 +1,70 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Footer extends Component {
-    render() {
-        let resumeData = this.props.resumeData;
-        return (
-            <footer>
-                <div className='row'>
-                    <div className='twelve columns'>
-                        <ul className='social-links'>
-                            {
-                                resumeData.socialLinks && resumeData.socialLinks.map((item) => {
-                                    return (
-                                        <li>
-                                            <a href={item.url}>
-                                                <i className={item.className} />
-                                            </a>
-                                        </li>
-                                    )
-                                })
-                            }
-                        </ul>
-                    </div>
-                    <div id='go-top'><a className='smoothscroll' title='To the top'
-                        href='#home'><i className='icon-up-open' /></a></div>
-                </div>
-            </footer>
-        );
-    }
+
+export default function Footer() {
+  return (
+    <div className='bg-light text-center text-white'>
+      <div className='container p-4 pb-0'>
+        <section className='mb-4'>
+          <a
+            className='btn btn-primary btn-floating m-1'
+            style={{ backgroundColor: '#3b5998' }}
+            href='#!'
+            role='button'
+          >
+           
+          </a>
+
+          <a
+            className='btn btn-primary btn-floating m-1'
+            style={{ backgroundColor: '#55acee' }}
+            href='#!'
+            role='button'
+          >
+          </a>
+
+          <a
+            className='btn btn-primary btn-floating m-1'
+            style={{ backgroundColor: '#dd4b39' }}
+            href='#!'
+            role='button'
+          >
+        
+          </a>
+          <a
+            className='btn btn-primary btn-floating m-1'
+            style={{ backgroundColor: '#ac2bac' }}
+            href='#!'
+            role='button'
+          >
+        
+          </a>
+
+          <a
+            className='btn btn-primary btn-floating m-1'
+            style={{ backgroundColor: '#0082ca' }}
+            href='#!'
+            role='button'
+          >
+      
+          </a>
+
+          <a
+            className='btn btn-primary btn-floating m-1'
+            style={{ backgroundColor: '#333333' }}
+            href='#!'
+            role='button'
+          >
+          </a>
+        </section>
+      </div>
+
+      <div className='text-center p-3' style={{ backgroundColor: '#8AAC7A' }}>
+        © 2022 Copyright:
+        <a className='text-white' href='https://github.com/CSeddon01'>
+          Christine Seddon
+        </a>
+      </div>
+    </div>
+  );
 }
-
