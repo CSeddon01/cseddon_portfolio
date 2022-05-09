@@ -11,11 +11,11 @@ export default function Contact() {
         <Form inline>
         <FormGroup controlId="formInlineName">
           <FormLabel>Name</FormLabel>{' '}
-          <FormControl type="text" placeholder="Jane Doe" />
+          <FormControl type="text" placeholder="Christine Seddon" />
         </FormGroup>{' '}
         <FormGroup controlId="formInlineEmail">
           <FormLabel>Email</FormLabel>{' '}
-          <FormControl type="email" placeholder="jane.doe@example.com" />
+          <FormControl type="email" placeholder="noddes@gmail.com" />
         </FormGroup>{' '}
         <Button type="submit">Send</Button>
       </Form>

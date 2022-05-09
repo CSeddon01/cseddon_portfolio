@@ -12,11 +12,13 @@ export default function App() {
   const appInfo = 'Business/Web Developer'
 
   return (
+    <>
     <body>
        <
         Nav / >
         <
         About name={appName} number={appInfo} / >
+      </body>
         <
         Portfolio / >
         <
@@ -24,26 +26,8 @@ export default function App() {
         <
         Footer / >
         
-    </body>
-    // <>
-    // <body>
-    //   <div>
-    //     <Nav></Nav>
-    //   </div>
-    //   <div>
-    //     <About name={appName} number={appInfo}></About>
-    //   </div>
-    //   <div>
-    //     <Portfolio></Portfolio>
-    //   </div>
-    //   <div>
-    //     <Contact></Contact>
-    //   </div>
-    //   <div>
-    //     <Footer></Footer>
-    //   </div>
-    // </body>
-    // </>
+    </>
+    
   );
 }
 
