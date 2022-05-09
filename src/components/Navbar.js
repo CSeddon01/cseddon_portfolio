@@ -21,7 +21,7 @@ export default function Navbar() {
                         <a className='nav-link' href='./Portfolio'>Portfolio</a>
                     </li>
                     <li className='nav-item'>
-                        <a className='nav-link' href='./Resume'>Resume</a>
+                        <a className='nav-link' href='./Resume'>Résumé</a>
                     </li>
                     <li className='nav-item'>
                         <a className='nav-link' href='./Contact'>Contact</a>

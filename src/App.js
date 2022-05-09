@@ -22,7 +22,7 @@ export default function App() {
         <
         Portfolio / >
         <
-        Contact / >
+        Contact name={appName}/ >
         <
         Footer / >
         
