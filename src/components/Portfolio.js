@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 export default function Portfolio() {
     return (
-
+<>
         <Carousel fade>
             <Carousel.Item>  
                 <img
@@ -41,5 +41,6 @@ export default function Portfolio() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        </>
     )
 }

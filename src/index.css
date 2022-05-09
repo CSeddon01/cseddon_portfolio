@@ -301,6 +301,7 @@ a {
 
 .section_title_two {
   margin-bottom: 70px;
+  
 }
 
 .section_title_two h6 {
@@ -309,5 +310,15 @@ a {
   text-transform: uppercase;
   color: var(--tertiary);
 }
+
+
+/* End Contact Section */
+
+.section_footer {
+  background-color: var(--tertiary);
+  text-align: center;
+  padding: 10px 0;
+}
+
 
 

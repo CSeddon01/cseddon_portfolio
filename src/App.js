@@ -8,8 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 export default function App() {
-  const appName = 'Christy'
-  const appInfo = 'Business/Web Developer'
 
   return (
     <>
@@ -17,12 +15,12 @@ export default function App() {
        <
         Nav / >
         <
-        About name={appName} number={appInfo} / >
+        About / >
       </body>
         <
         Portfolio / >
         <
-        Contact name={appName}/ >
+        Contact / >
         <
         Footer / >
         

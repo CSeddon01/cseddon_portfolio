@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className='bg-info text-center text-white'>
+    <div className='section_footer text-white'>
       <div className='container p-4 pb-0'>
         <section className='mb-4'>
           <a
@@ -24,7 +24,7 @@ export default function Footer() {
         </section>
       </div>
 
-      <div className='bg-info fa fa-copyright'>
+      <div className='section_footer fa fa-copyright'>
         © 2022  Made with ❤️ by Christy Seddon
         <a className='text-white' href='https://github.com/CSeddon01'>
        
