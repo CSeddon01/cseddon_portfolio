@@ -6,7 +6,7 @@ main {
 :root {
   --primary: #8c54ff;
   --secondary: #f3a847;
-  --tertiary: #329ee1;;
+  --tertiary: #329ee1;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -20,10 +20,7 @@ main {
   box-sizing: border-box;
 }
 
-
-
-html
-{
+html {
   min-height: 100%;
 }
 
@@ -41,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -90,7 +87,6 @@ header {
   padding: 0 20px;
 }
 
-
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -116,7 +112,7 @@ img {
   max-width: 100%;
 }
 
-span[role='img'] {
+span[role="img"] {
   cursor: default;
 }
 
@@ -299,10 +295,8 @@ a {
   padding: 120px 0;
 }
 
-
 .section_title_two {
   margin-bottom: 70px;
-  
 }
 
 .section_title_two h6 {
@@ -312,7 +306,6 @@ a {
   color: var(--tertiary);
 }
 
-
 /* End Contact Section */
 
 .section_footer {
@@ -321,5 +314,16 @@ a {
   padding: 10px 0;
 }
 
-
-
+.carousel-caption {
+  width: 200px;
+  z-index: 20;
+  color: #fff;
+  background-color: var(--tertiary);
+  text-align: center;
+  top: 22%;
+  left: 82%;
+  bottom: auto;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
