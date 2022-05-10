@@ -15,17 +15,17 @@ export default function About({ appName, appInfo }) {
                             <p>I'm Christine Seddon. Based in Austin, Texas I am a software developer with strong business background.  I specialize in helping businesses grow!</p>
                         </div>
                         <ul className='nav nav-tabs' role='tablist'>
-                            <li className='nav-item'>
+                            <li className='nav-items'>
                                 <a className='nav-link active' data-toggle='tab' href="#" role='tab' aria-controls='home' aria-selected='true'>Professional</a>
                             </li>
                         </ul>
                         <ul className='nav nav-tabs' role='tablist'>
-                            <li className='nav-item'>
+                            <li className='nav-items'>
                                 <a className='nav-link active' data-toggle='tab' href="#" role='tab' aria-controls='home' aria-selected='true'>Self-motivated</a>
                             </li>
                         </ul>
                         <ul className='nav nav-tabs' role='tablist'>
-                            <li className='nav-item'>
+                            <li className='nav-items'>
                                 <a className='nav-link active' data-toggle='tab' href="#" role='tab' aria-controls='home' aria-selected='true'>Lifelong Learner</a>
                             </li>
                         </ul>

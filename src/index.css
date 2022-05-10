@@ -146,6 +146,11 @@ nav li {
   cursor: pointer;
 }
 
+.nav-items {
+  border: 1px solid var(--tertiary);
+
+}
+
 textarea {
   width: 600px;
   height: 120px;
@@ -326,4 +331,17 @@ a {
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
+}
+
+.border_carousel {
+ border-style: double;
+ border-width: 5px;
+ border-color: var(--tertiary);
+ border-radius: 12px;
+}
+
+.container-fluid {
+  height: 100%;
+  padding-top: 25px;
+  background: rgb(236, 240, 18);
 }
