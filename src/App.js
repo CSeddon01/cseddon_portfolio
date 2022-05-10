@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import ContactForm from './components/ContactForm';
 
 export default function App() {
 
@@ -21,6 +22,8 @@ export default function App() {
         Portfolio / >
         <
         Contact / >
+        <
+        ContactForm />
         <
         Footer / >
         

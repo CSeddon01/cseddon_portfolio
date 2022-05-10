@@ -12,7 +12,7 @@ export default function About({ appName, appInfo }) {
                                 <h6>Who am I?</h6>
 
                             </div>
-                            <p>I'm Christine Seddon. Based in Austin, Texas I am a software developer with strong business experience.  I specialize in helping businesses grow!</p>
+                            <p>I'm Christine Seddon. Based in Austin, Texas I am a software developer with strong business background.  I specialize in helping businesses grow!</p>
                         </div>
                         <ul className='nav nav-tabs' role='tablist'>
                             <li className='nav-item'>
