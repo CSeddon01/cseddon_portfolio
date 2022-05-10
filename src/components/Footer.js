@@ -21,7 +21,7 @@ export default function Footer() {
           >GitHub</a>
         </section>
       </div>
-      <div className='section_footer fa fa-copyright'>
+      <div className='section_footer text-purple'>
         © 2022  Made with ❤️ by Christy Seddon
         <a
           className='text-white'

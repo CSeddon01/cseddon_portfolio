@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import ContactForm from './components/ContactForm';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-import Spacer from './components/Spacer';
+// import Spacer from './components/Spacer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
@@ -20,21 +20,22 @@ export default function App() {
         <
           About />
       </body>
-      <
-        Spacer />
+      {/* <
+        Spacer /> */}
       <
         Portfolio />
-      <
-        Spacer />
+      {/* <
+        Spacer /> */}
       <div className="flex-row space-between">
         <
           Contact />
         <
           ContactForm />
       </div>
+      <footer>
       <
         Footer />
-
+        </footer>
     </>
 
   );

@@ -10,7 +10,7 @@ import TP from "../assets/images/trackerpic.jpg";
 
 export default function Portfolio() {
     return (
-        <div className="row">
+        <div className="container-blue">
             <div></div>
             <div className="border_carousel container col-md-6">
                 <Carousel fade>
