@@ -169,6 +169,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .space-between {
