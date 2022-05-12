@@ -146,6 +146,10 @@ nav li {
   cursor: pointer;
 }
 
+.nav-item {
+  margin-left: 35px;
+}
+
 .nav-items {
   border: 1px solid var(--tertiary);
 
@@ -315,7 +319,7 @@ a {
 
 footer {
   background-image: url(./assets/images/bluefooter.jpg);
-  height: 25vh;
+  height: 20vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -346,12 +350,6 @@ footer {
  border-radius: 12px;
 }
 
-.container-fluid {
-  height: 100%;
-  padding-top: 25px;
-  background-image: url(./assets/images/bluespacer.jpg);
-}
-
 .text-purple {
  color: var(--primary);
 }
@@ -363,5 +361,5 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(./assets/images/bybg.jpg);
+  background-image: url(./assets/images/deepwater.jpg);
 }

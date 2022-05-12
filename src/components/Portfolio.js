@@ -12,7 +12,7 @@ export default function Portfolio() {
     return (
         <div className="container-blue">
             <div></div>
-            <div className="border_carousel container col-md-6">
+            <div className=" container col-md-6">
                 <Carousel fade>
                     <Carousel.Item>
                         <img
