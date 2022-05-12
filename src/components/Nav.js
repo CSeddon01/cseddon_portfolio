@@ -9,12 +9,12 @@ export default function Nav(props) {
         <div className='body-wrapper'>
             <div className='sticky-outer-wrapper'>
                 <div className='sticky-inner-wrapper'>
-                        <div className='container undefined'>
-                            <a className='navbar-brand' href='./'>
-                                <img src={logo} style={{ width: 200, marginTop: -7 }} alt='logo' />
-                            </a>
-                            <Navbar pages={pages} setcurrentPage={setcurrentPage} currentPage={currentPage}></Navbar>
-                        </div>
+                    <div className='container undefined'>
+                        <a className='navbar-brand' href='./'>
+                            <img src={logo} style={{ width: 200, marginTop: -7 }} alt='logo' />
+                        </a>
+                        <Navbar pages={pages} setcurrentPage={setcurrentPage} currentPage={currentPage}></Navbar>
+                    </div>
                 </div>
             </div>
         </div>

@@ -9,7 +9,6 @@ import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-
 export default function App() {
   const [pages] = useState([
     { name: 'Home', description: 'About' },
@@ -44,7 +43,6 @@ export default function App() {
         <Footer />
       </footer>
     </>
-
   );
 }
 

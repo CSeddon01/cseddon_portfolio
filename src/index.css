@@ -102,7 +102,6 @@ button {
   font-weight: 600;
   margin-bottom: 30px;
   padding: 10px 15px;
-
 }
 
 button:hover {
@@ -148,7 +147,7 @@ nav {
   display: flex;
   float: right;
   flex-direction: row;
- width: 75%;
+  width: 75%;
 }
 
 nav ul {
@@ -157,7 +156,7 @@ nav ul {
   list-style: none;
   font-size: 150%;
   margin: 50px;
-  padding: 30px;
+  padding: 10px;
 }
 
 nav ul li:hover {
@@ -332,4 +331,17 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(./assets/images/deepwater.jpg);
+}
+
+.letter {
+  height: 100px;
+  width: 500px;
+  margin: 0 auto; /* So as to center the box */
+  transition-property: width;
+  transition-duration: 2s;
+  color: var(--tertiary);
+}
+
+.letter:hover {
+  width: 50px;
 }
