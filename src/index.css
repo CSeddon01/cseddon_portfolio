@@ -77,7 +77,7 @@ p {
 
 a {
   border-radius: 5px;
-  color: var(--primary);
+  color: var(--secondary);
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
@@ -97,7 +97,6 @@ button {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 5px 10px #888888;
-  
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -146,18 +145,19 @@ li {
 }
 
 nav {
-  float: right;
   display: flex;
-  flex-direction: column;
+  float: right;
+  flex-direction: row;
+ width: 75%;
 }
 
 nav ul {
-  
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
-  padding-top: 10px;
   font-size: 150%;
+  margin: 50px;
+  padding: 30px;
 }
 
 nav ul li:hover {
@@ -167,14 +167,16 @@ nav ul li:hover {
   cursor: pointer;
 }
 
-
 .nav-item {
   margin-left: 35px;
 }
 
 .nav-items {
   border: 1px solid var(--tertiary);
+}
 
+.navActive {
+  color: var(--secondary);
 }
 
 textarea {
@@ -264,9 +266,6 @@ textarea {
   cursor: pointer;
 }
 
-.navActive {
-  color: var(--secondary);
-}
 
 /* Contact css start */
 .get_item {
@@ -323,10 +322,6 @@ textarea {
  border-width: 5px;
  border-color: var(--tertiary);
  border-radius: 12px;
-}
-
-.text-purple {
- color: var(--tertiary);
 }
 
 .container-blue {

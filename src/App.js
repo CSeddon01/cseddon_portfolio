@@ -12,10 +12,10 @@ import './index.css';
 
 export default function App() {
   const [pages] = useState([
-    { name: 'about', description: 'About' },
-    { name: 'portfolio', description: 'Portfolio' },
-    { name: 'contact', description: 'Contact' },
-    { name: 'resume', description: 'Resume' },
+    { name: 'Home', description: 'About' },
+    { name: 'Portfolio', description: 'Portfolio' },
+    { name: 'Contact', description: 'Contact' },
+    { name: 'Resume', description: 'Resume' },
   ]);
   const [currentPage, setcurrentPage] = useState(pages[0]);
   return (
@@ -26,13 +26,13 @@ export default function App() {
         currentPage={currentPage}
       ></Nav>
       <main>
-        {currentPage.name === 'about' ?
+        {currentPage.name === 'Home' ?
           (<About></About>)
-          : currentPage.name === 'portfolio' ?
+          : currentPage.name === 'Portfolio' ?
             (<Portfolio></Portfolio>)
-            : currentPage.name === 'resume' ?
+            : currentPage.name === 'Resume' ?
               (<Resume></Resume>)
-              : currentPage.name === 'contact' ?
+              : currentPage.name === 'Contact' ?
                 (<div className='flex-row space-between'>
                   (<Contact></Contact>)
                   <ContactForm />

@@ -26,7 +26,6 @@ export default function Footer() {
       style={{ color: "var(--dark)" }}>
         © 2022  Made with ❤️ by Christy Seddon
         <a
-          className='text-white'
           href='https://github.com/CSeddon01'
           target="_git">
         </a>

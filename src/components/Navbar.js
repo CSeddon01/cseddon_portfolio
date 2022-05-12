@@ -10,10 +10,10 @@ export default function Navbar(props) {
 
     return (
         <nav>
-            <ul className='nav navbar-nav m-auto'>
+            <ul className='nav mx-auto px-2'>
                 {pages.map((page) => (
                     <li
-                        className={`mx-1 ${currentPage.name === page.name && 'navActive'
+                        className={`mx-4 ${currentPage.name === page.name && 'navActive'
                             }`}
                         key={page.name}
                     >
@@ -22,7 +22,7 @@ export default function Navbar(props) {
                                 setcurrentPage(page);
                             }}
                         >
-                        {page.name}
+                            {page.name}
                         </span>
                     </li>
                 ))}
