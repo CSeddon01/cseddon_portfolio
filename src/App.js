@@ -17,17 +17,14 @@ export default function App() {
     { name: 'contact', description: 'Contact' },
     { name: 'resume', description: 'Resume' },
   ]);
-  const [currentPage, setCurrentPage] = useState(pages[0]);
+  const [currentPage, setcurrentPage] = useState(pages[0]);
   return (
     <>
-    <Nav>
-      <body>
+      <Nav
         pages={pages}
-        setCurrentPage={setCurrentPage}
+        setcurrentPage={setcurrentPage}
         currentPage={currentPage}
-    
-      </body>
-      </Nav>
+      ></Nav>
       <main>
         {currentPage.name === 'about' ?
           (<About></About>)
@@ -37,7 +34,7 @@ export default function App() {
               (<Resume></Resume>)
               : currentPage.name === 'contact' ?
                 (<div className='flex-row space-between'>
-                  <Contact />
+                  (<Contact></Contact>)
                   <ContactForm />
                 </div>)
                 : (<></>)

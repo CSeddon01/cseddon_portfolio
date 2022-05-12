@@ -5,9 +5,9 @@ main {
   margin-bottom: 220px;
 }
 :root {
-  --primary: #a2b889;
+  --primary: #e0ca66;
   --secondary: #a3d9ff;
-  --tertiary: #7e6b8f;
+  --tertiary: #1371ac;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  background-image: url(./assets/images/purplebg.png);
+  background-image: url(./assets/images/bluebg.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ button {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 5px 10px #888888;
-  color: #fff;
+  
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -146,13 +146,13 @@ li {
 }
 
 nav {
+  float: right;
   display: flex;
-  float: left;
+  flex-direction: column;
 }
 
 nav ul {
-  display: flex;
-  flex-wrap: wrap;
+  
   justify-content: space-between;
   align-items: center;
   list-style: none;
@@ -291,7 +291,6 @@ textarea {
 }
 
 /* End Contact Section */
-
 
 .footer-bs {
   height: 20vh;
