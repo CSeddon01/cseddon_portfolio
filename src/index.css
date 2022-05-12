@@ -2,11 +2,12 @@ main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
+  margin-bottom: 220px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #f3a847;
-  --tertiary: #329ee1;
+  --primary: #a2b889;
+  --secondary: #a3d9ff;
+  --tertiary: #7e6b8f;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -25,11 +26,12 @@ html {
 }
 
 body {
-  background-image: url(./assets/images/bluebg.jpg);
+  background-image: url(./assets/images/purplebg.png);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 h1,
@@ -74,9 +76,12 @@ p {
 }
 
 a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
+  border-radius: 5px;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 
 a:hover {
@@ -88,15 +93,17 @@ header {
 }
 
 button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  color: #fff;
   cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+
 }
 
 button:hover {
@@ -138,13 +145,28 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
+nav {
+  display: flex;
+  float: left;
 }
 
-nav li {
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-top: 10px;
+  font-size: 150%;
+}
+
+nav ul li:hover {
+  background: var(--tertiary);
+  color: black;
+  box-shadow: inset 0 100px 0 0 #748dcd;
   cursor: pointer;
 }
+
 
 .nav-item {
   margin-left: 35px;
@@ -242,53 +264,6 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
-button {
-  background: var(--primary);
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
-
-a {
-  border-radius: 5px;
-  color: var(--primary);
-  font-weight: 600;
-  padding: 2px 4px;
-  margin-left: -2px;
-  margin-right: -2px;
-}
-
 .navActive {
   color: var(--secondary);
 }
@@ -317,16 +292,17 @@ a {
 
 /* End Contact Section */
 
-footer {
-  background-image: url(./assets/images/bluefooter.jpg);
+
+.footer-bs {
   height: 20vh;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.section_footer {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 0; 
+  position: absolute;
+  width: 100%;
+  min-height: 100px;
+  bottom: 0px;
 }
 
 .carousel-caption {
@@ -351,10 +327,10 @@ footer {
 }
 
 .text-purple {
- color: var(--primary);
+ color: var(--tertiary);
 }
 
-.container-blue{
+.container-blue {
   height: 100%;
   padding-top: 100px;
   padding-bottom: 100px;

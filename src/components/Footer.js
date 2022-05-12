@@ -2,26 +2,28 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className='section_footer text-white'>
+  <footer className="footer-bs">
+  
       <div className='container p-4 pb-0'>
         <section className='mb-4'>
           <a
-            className='btn btn-primary btn-floating m-1'
-            style={{ backgroundColor: '#333333' }}
+            className='btn btn-floating m-1'
+            style={{ backgroundColor: '#a2b889' }}
             href='https://www.linkedin.com/in/christine-seddon-2a97a2158/'
             role='button'
             target='_link'
           >LinkedIn</a>
           <a
-            className='btn btn-primary btn-floating m-1 '
-            style={{ backgroundColor: '#333333' }}
+            className='btn btn-floating m-1 '
+            style={{ backgroundColor: '#a2b889' }}
             href='https://github.com/CSeddon01'
             role='button'
             target='_git'
           >GitHub</a>
         </section>
       </div>
-      <div className='section_footer text-purple'>
+      <div className='section_footer'
+      style={{ color: "#7e6b8f" }}>
         © 2022  Made with ❤️ by Christy Seddon
         <a
           className='text-white'
@@ -29,6 +31,7 @@ export default function Footer() {
           target="_git">
         </a>
       </div>
-    </div>
+    
+    </footer>
   );
 }
