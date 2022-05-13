@@ -40,11 +40,16 @@ export default function App() {
                 : (<></>)
         }
       </main>
-      <footer>
+      <footer style={{
+          position: "fixed",
+          left: 0,
+          bottom: 0,
+          right: 0,
+          backgroundColor: ""
+        }}>
         <Footer />
       </footer>
     </div>
- 
   );
 }
 

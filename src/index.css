@@ -298,7 +298,7 @@ textarea {
 
 .letter {
   width: 500px;
-  margin: 0 auto; /* So as to center the box */
+  margin: 0 auto; 
   transition-property: width;
   transition-duration: 2s;
   color: var(--tertiary);
@@ -306,4 +306,10 @@ textarea {
 
 .letter:hover {
   width: 50px;
+}
+
+.footer {
+  position: "fixed";
+  margin-bottom: 0px;
+
 }

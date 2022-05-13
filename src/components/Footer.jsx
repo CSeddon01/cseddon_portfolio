@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="footer mt-3 position-sticky">
+
+    <footer className='footer mt-auto'>
       <div className='container-fluid'>
         <section className='d-flex justify-content-center'>
           <a
@@ -20,12 +21,11 @@ export default function Footer() {
             target='_git'
           >GitHub</a>
           <p className='m-3'
-            style={{ color: "var(--dark)" }}>
+            style={{ color: 'var(--dark)' }}>
             © 2022  Made with ❤️ by Christy Seddon
           </p>
         </section>
       </div>
-
     </footer>
   );
 }
