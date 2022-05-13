@@ -30,13 +30,6 @@
     "tech": "HTML5, CSS, JavaScript, Tailwind, jQuery, and APIs",
     "repo": "https://github.com/CSeddon01/Scholarship-App",
     "link": "https://cseddon01.github.io/Scholarship-App/"
-  },
-  {
-    "img": "https://github.com/CSeddon01/cseddon_portfolio/blob/main/src/assets/images/trackerpic.jpg?raw=true",
-    "title": "Staff Tracker",
-    "description": "CLI application to manage a company's database",
-    "tech": "JavaScript, Express.js, Node.js, Inquirer, and MySQL",
-    "repo": "https://github.com/CSeddon01/Staff_Tracker",
-    "link": "https://github.com/CSeddon01/Staff_Tracker"
   }
+  
 ]
