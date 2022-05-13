@@ -2,7 +2,6 @@ main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
-  margin-bottom: 220px;
 }
 :root {
   --primary: #e0ca66;
@@ -25,13 +24,12 @@ html {
   min-height: 100%;
 }
 
-body {
+.homepage-bgimage {
   background-image: url(./assets/images/bluebg.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 h1,
@@ -96,7 +94,6 @@ button {
   border: 1px solid;
   border-radius: 5px;
   padding: 10px;
-  box-shadow: 5px 10px #888888;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -290,39 +287,6 @@ textarea {
 
 /* End Contact Section */
 
-.footer-bs {
-  height: 20vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 10px 0; 
-  position: absolute;
-  width: 100%;
-  min-height: 100px;
-  bottom: 0px;
-}
-
-.carousel-caption {
-  width: 200px;
-  z-index: 20;
-  color: #fff;
-  background-color: var(--tertiary);
-  text-align: center;
-  top: 22%;
-  left: 82%;
-  bottom: auto;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-}
-
-.border_carousel {
- border-style: double;
- border-width: 5px;
- border-color: var(--tertiary);
- border-radius: 12px;
-}
-
 .container-blue {
   height: 100%;
   padding-top: 100px;
@@ -330,11 +294,9 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(./assets/images/deepwater.jpg);
 }
 
 .letter {
-  height: 100px;
   width: 500px;
   margin: 0 auto; /* So as to center the box */
   transition-property: width;

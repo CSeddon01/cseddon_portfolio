@@ -17,8 +17,9 @@ export default function App() {
     { name: 'Resume', description: 'Resume' },
   ]);
   const [currentPage, setcurrentPage] = useState(pages[0]);
+
   return (
-    <>
+    <div class="container-fluid homepage-bgimage">
       <Nav
         pages={pages}
         setcurrentPage={setcurrentPage}
@@ -42,7 +43,8 @@ export default function App() {
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
+ 
   );
 }
 

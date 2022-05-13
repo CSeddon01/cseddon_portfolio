@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-       
+    
         <section className='bg_color' id='about'>
             <div className='container'>
                 <div className='row align-items-center flex-row-reverse'>
