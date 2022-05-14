@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/photo-port/static/css/main.d1caccd7.css",
-    "main.js": "/photo-port/static/js/main.cad44f2e.js",
-    "static/media/christine-seddon-resume.pdf": "/photo-port/static/media/christine-seddon-resume.3d7498ffdaac06d78170.pdf",
-    "static/media/CS_logo_blue.png": "/photo-port/static/media/CS_logo_blue.25056800a75aaedc9601.png",
-    "static/media/bluebg.jpg": "/photo-port/static/media/bluebg.53d8d8f3bc47f057c84e.jpg",
-    "index.html": "/photo-port/index.html",
-    "main.d1caccd7.css.map": "/photo-port/static/css/main.d1caccd7.css.map",
-    "main.cad44f2e.js.map": "/photo-port/static/js/main.cad44f2e.js.map"
+    "main.css": "/cseddon_portfolio/static/css/main.ca223711.css",
+    "main.js": "/cseddon_portfolio/static/js/main.c7efdfe4.js",
+    "static/media/christine-seddon-resume.pdf": "/cseddon_portfolio/static/media/christine-seddon-resume.3d7498ffdaac06d78170.pdf",
+    "static/media/CS_logo_blue.png": "/cseddon_portfolio/static/media/CS_logo_blue.25056800a75aaedc9601.png",
+    "static/media/bluebg.jpg": "/cseddon_portfolio/static/media/bluebg.53d8d8f3bc47f057c84e.jpg",
+    "index.html": "/cseddon_portfolio/index.html",
+    "main.ca223711.css.map": "/cseddon_portfolio/static/css/main.ca223711.css.map",
+    "main.c7efdfe4.js.map": "/cseddon_portfolio/static/js/main.c7efdfe4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1caccd7.css",
-    "static/js/main.cad44f2e.js"
+    "static/css/main.ca223711.css",
+    "static/js/main.c7efdfe4.js"
   ]
 }
