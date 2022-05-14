@@ -10,6 +10,9 @@ HTML
 CSS
 JavaScript
 
+## Deployed at
+
+https://cseddon01.github.io/cseddon_portfolio/
 
 ## 🚀 About Me!
 I'm a full stack developer and business manager specializing small businesses and startups.  I'm based in Austin, Texas. 
