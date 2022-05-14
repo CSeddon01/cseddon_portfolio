@@ -26,7 +26,7 @@ html {
 
 .homepage-bgimage {
   background-image: url(./assets/images/bluebg.jpg);
-  height: 110vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,26 +88,6 @@ a:hover {
 
 header {
   padding: 0 20px;
-}
-
-button {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: 0.8;
 }
 
 img {
@@ -184,6 +164,7 @@ textarea {
 
 .container {
   width: 100%;
+  display: flex;
   max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
@@ -288,15 +269,6 @@ textarea {
 
 /* End Contact Section */
 
-.container-blue {
-  height: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .letter {
   width: 500px;
   margin: 0 auto; 
@@ -313,4 +285,44 @@ textarea {
   position: "fixed";
   margin-bottom: 0px;
 
+}
+
+@media screen and (max-width: 960px) {
+  .container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .container  {
+    font-size: 20px;
+    margin-top: -50px;
+    margin-right: 25px;
+  }
+
+  .container> h2  {
+    font-size: 20px;
+    margin-top: -50px;
+    margin-right: 25px;
+  }
+
+ h4  {
+    font-size: 20px;
+    margin-top: -0px;
+    margin-right: 200px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+  .btn {
+    width: 35%;
+    height: 25%
+  }
 }

@@ -19,9 +19,9 @@ const ContactForm = () => {
     }
 
     return (
-        <div className='col-lg-6 float-end'>
+        <container className='col-lg-6 float-end'>
             <div className='react-reveal'>
-                <div className='section_title_two '>
+                <container className='section_title_two '>
                     <h6> Contact Me</h6>
                     <h2>Message Me Here</h2>
                     <form
@@ -65,9 +65,9 @@ const ContactForm = () => {
                             </button>
                         </div>
                     </form>
-                </div>
+                </container>
             </div>
-        </div>
+        </container>
     );
 };
 
