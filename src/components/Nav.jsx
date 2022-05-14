@@ -2,14 +2,11 @@ import React from 'react';
 import logo from '../assets/images/CS_logo_blue.png';
 import Navbar from './Navbar';
 
-
-
-
 export default function Nav(props) {
-  
+
+    //logo side of the Navbar
     const { pages = [], setcurrentPage, currentPage } = props;
     return (
-       
         <div className='body-wrapper'>
             <div className='sticky-outer-wrapper'>
                 <div className='sticky-inner-wrapper'>

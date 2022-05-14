@@ -8,6 +8,7 @@ import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
+//Makes it look like you are going to individual pages even though this is a SPA application.  Leaves footer and Nav static.
 export default function App() {
   const [pages] = useState([
     { name: 'Home', description: 'About' },
@@ -18,7 +19,7 @@ export default function App() {
   const [currentPage, setcurrentPage] = useState(pages[0]);
 
   return (
-    <div class="container-fluid homepage-bgimage">
+    <div class='container-fluid homepage-bgimage'>
       <Nav
         pages={pages}
         setcurrentPage={setcurrentPage}
@@ -32,17 +33,17 @@ export default function App() {
             : currentPage.name === 'Resume' ?
               (<Resume></Resume>)
               : currentPage.name === 'ContactForm' ?
-                  (<ContactForm />)
+                (<ContactForm />)
                 : (<></>)
         }
       </main>
       <footer style={{
-          position: "fixed",
-          left: 0,
-          bottom: 0,
-          right: 0,
-          backgroundColor: ""
-        }}>
+        position: 'fixed',
+        left: 0,
+        bottom: 0,
+        right: 0,
+        backgroundColor: ''
+      }}>
         <Footer />
       </footer>
     </div>

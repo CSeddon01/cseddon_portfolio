@@ -26,7 +26,7 @@ html {
 
 .homepage-bgimage {
   background-image: url(./assets/images/bluebg.jpg);
-  height: 100vh;
+  height: 120vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,7 +243,6 @@ textarea {
   cursor: pointer;
 }
 
-
 /* Contact css start */
 .get_item {
   margin-top: 25px;
@@ -257,7 +256,6 @@ textarea {
 
 .section_title_two {
   margin-bottom: 70px;
-
 }
 
 .section_title_two h6 {
@@ -271,7 +269,7 @@ textarea {
 
 .letter {
   width: 500px;
-  margin: 0 auto; 
+  margin: 0 auto;
   transition-property: width;
   transition-duration: 2s;
   color: var(--tertiary);
@@ -284,7 +282,6 @@ textarea {
 .footer {
   position: "fixed";
   margin-bottom: 0px;
-
 }
 
 @media screen and (max-width: 960px) {
@@ -298,20 +295,25 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-
-  .container  {
+  .container {
+    max-width: 100%;
     font-size: 20px;
     margin-top: -50px;
     margin-right: 25px;
   }
 
-  .container> h2  {
+  .container > h2 {
     font-size: 20px;
     margin-top: -50px;
     margin-right: 25px;
   }
 
- h4  {
+  textarea {
+    max-width: 300%;
+    font-size: 20px;
+  }
+
+  h4 {
     font-size: 20px;
     margin-top: -0px;
     margin-right: 200px;
@@ -321,8 +323,13 @@ textarea {
     display: block;
     text-decoration: none;
   }
+
   .btn {
     width: 35%;
-    height: 25%
+    height: 25%;
+  }
+
+  footer {
+    display: none;
   }
 }

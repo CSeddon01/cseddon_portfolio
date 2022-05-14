@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../utils/helpers';
 
+// navigation bar side of Navbar.  This displays the page name in the tab too. 
 export default function Navbar(props) {
     const { pages = [], setcurrentPage, currentPage } = props;
 

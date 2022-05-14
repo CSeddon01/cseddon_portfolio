@@ -1,5 +1,6 @@
 import React from 'react';
 
+//footer with LinkedIn and GitHub links
 export default function Footer() {
   return (
 

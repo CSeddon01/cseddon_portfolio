@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+//contact form made with Herotofu.  This allows emails to be submitte to my account. Also, after user submits email, they will recieve a confirmation text on the screen.
+
 const FORM_ENDPOINT = 'https://public.herotofu.com/v1/b9c80780-cfbf-11ec-a821-6590c8b23a22';
 const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
@@ -19,7 +21,7 @@ const ContactForm = () => {
     }
 
     return (
-        <container className='col-lg-6 float-end'>
+        <main className='col-lg-6 float-end'>
             <div className='react-reveal'>
                 <container className='section_title_two '>
                     <h6> Contact Me</h6>
@@ -67,7 +69,7 @@ const ContactForm = () => {
                     </form>
                 </container>
             </div>
-        </container>
+        </main>
     );
 };
 

@@ -2,6 +2,7 @@ import React from 'react';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
+// Uses properties to link slides and display them.  This contains an Overlay Trigger, which is a tool tip next to the button" 
 export default function Projects(props) {
     const renderTooltip = (props) => (
         <Tooltip id='button-tooltip' {...props}>

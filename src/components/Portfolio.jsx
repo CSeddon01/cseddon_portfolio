@@ -2,7 +2,7 @@ import React from 'react';
 import slides from './slides.json';
 import Projects from './Projects';
 
-
+//Connects the slides to the projects properites
 export default function Portfolio() {
     return (
         <div className='container'>
