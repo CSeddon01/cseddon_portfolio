@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.d1caccd7.css",
+    "main.js": "/photo-port/static/js/main.cad44f2e.js",
+    "static/media/christine-seddon-resume.pdf": "/photo-port/static/media/christine-seddon-resume.3d7498ffdaac06d78170.pdf",
+    "static/media/CS_logo_blue.png": "/photo-port/static/media/CS_logo_blue.25056800a75aaedc9601.png",
+    "static/media/bluebg.jpg": "/photo-port/static/media/bluebg.53d8d8f3bc47f057c84e.jpg",
+    "index.html": "/photo-port/index.html",
+    "main.d1caccd7.css.map": "/photo-port/static/css/main.d1caccd7.css.map",
+    "main.cad44f2e.js.map": "/photo-port/static/js/main.cad44f2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1caccd7.css",
+    "static/js/main.cad44f2e.js"
+  ]
+}
