@@ -25,7 +25,7 @@ const ContactForm = () => {
             <div className='react-reveal'>
                 <container className='section_title_two '>
                     <h6> Contact Me</h6>
-                    <h2>Message Me Here</h2>
+                    <h2>Message Me Here or email me directly at noddes@gmail.com</h2>
                     <form
                         action={FORM_ENDPOINT}
                         onSubmit={handleSubmit}
