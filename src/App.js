@@ -13,7 +13,7 @@ export default function App() {
   const [pages] = useState([
     { name: 'Home', description: 'About' },
     { name: 'Portfolio', description: 'Portfolio' },
-    { name: 'ContactForm', description: 'ContactForm' },
+    { name: 'Contact', description: 'Contact' },
     { name: 'Resume', description: 'Resume' },
   ]);
   const [currentPage, setcurrentPage] = useState(pages[0]);

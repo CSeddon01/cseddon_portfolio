@@ -1,5 +1,13 @@
 [
   {
+    "img": "https://github.com/CSeddon01/cseddon_portfolio/blob/main/src/assets/images/connections.jpg?raw=true",
+    "title": "Connections",
+    "description": "Website that allow students to have better access to the annual scholarship application from a non-profit organization.",
+    "tech": "HTML5, JavaScript, Tailwind, React, JWT, Apollo, GraphQL, Heroku, Axios",
+    "repo": "https://github.com/CSeddon01/connections",
+    "link": "https://connected-jobsearch-engine.herokuapp.com/"
+  },
+  {
     "img": "https://github.com/CSeddon01/cseddon_portfolio/blob/main/src/assets/images/wehelpaustin.jpg?raw=true",
     "title": "We Help Austin",
     "description": "Website where fellow Austinites can get help and help each other with a fresh take on community building.",
@@ -30,15 +38,5 @@
     "tech": "HTML5, CSS, JavaScript, Tailwind, jQuery, and APIs",
     "repo": "https://github.com/CSeddon01/Scholarship-App",
     "link": "https://cseddon01.github.io/Scholarship-App/"
-  },
-  {
-    "img": "https://github.com/CSeddon01/cseddon_portfolio/blob/main/src/assets/images/SocietyofMW.jpg?raw=true",
-    "title": "Society of Martha Washington",
-    "description": "Website that allow students to have better access to the annual scholarship application from a non-profit organization.",
-    "tech": "HTML5, CSS, JavaScript, Tailwind, jQuery, and APIs",
-    "repo": "https://github.com/CSeddon01/Scholarship-App",
-    "link": "https://cseddon01.github.io/Scholarship-App/"
   }
-
-  
 ]
