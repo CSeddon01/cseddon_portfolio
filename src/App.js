@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-import ContactForm from './components/ContactForm';
+import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
@@ -32,8 +32,8 @@ export default function App() {
             (<Portfolio></Portfolio>)
             : currentPage.name === 'Resume' ?
               (<Resume></Resume>)
-              : currentPage.name === 'ContactForm' ?
-                (<ContactForm />)
+              : currentPage.name === 'Contact' ?
+                (<Contact />)
                 : (<></>)
         }
       </main>
