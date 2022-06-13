@@ -24,4 +24,4 @@ I'm a full stack developer and business manager specializing small businesses an
 
 
 ## Contribution
-Made with ❤️ by Christy Seddon
+Made with ❤️ by Christine Seddon
